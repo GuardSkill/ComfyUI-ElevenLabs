@@ -78,9 +78,9 @@ class ElevenLabsVoiceQuery:
         if locale and locale != "all":
             params["locale"] = locale
         if use_cases and use_cases != "all":
-            params["use_case"] = use_cases
+            params["use_cases"] = [use_cases]
         if descriptive and descriptive != "all":
-            params["descriptive"] = descriptive
+            params["descriptives"] = [descriptive]
 
         # 调用 ElevenLabs API（带重试机制）
         url = "https://api.elevenlabs.io/v1/shared-voices"
