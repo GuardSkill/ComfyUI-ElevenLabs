@@ -21,7 +21,7 @@ class ElevenLabsVoiceQuery:
                 "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff}),
             },
             "optional": {
-                "category": (["all", "high_quality", "professional"], {"default": "all"}),
+                "category": (["all", "high_quality", "professional","generated","famous"], {"default": "all"}),
                 "gender": (["all", "female", "male", "neutral"], {"default": "all"}),
                 "age": (["all", "middle-aged", "middle_aged", "old", "young"], {"default": "all"}),
                 "language": (["all", "ar", "bg", "cs", "da", "de", "el", "en", "es", "fi",

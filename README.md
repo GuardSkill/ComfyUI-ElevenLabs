@@ -1,6 +1,7 @@
 # ComfyUI-ElevenLabs
 
 ElevenLabs Text-to-Speech and Voice Query nodes for ComfyUI.
+![Demo](workflows/example_api.png)
 
 ## Features
 
@@ -12,7 +13,7 @@ ElevenLabs Text-to-Speech and Voice Query nodes for ComfyUI.
 1. Clone this repository into your ComfyUI custom_nodes folder:
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/yourusername/ComfyUI-ElevenLabs.git
+git clone https://github.com/GuardSkill/ComfyUI-ElevenLabs.git
 ```
 
 2. Install dependencies:
